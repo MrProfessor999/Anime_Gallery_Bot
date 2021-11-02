@@ -1,5 +1,5 @@
 start_text = '''This bot is for downloading any anime direclty via links in multiple quality
-                
+Created by N_A_V_I_P_A_V_I                
 Use /help to know commands and how to use this bot'''
 
 help_text = '''List of commands:
@@ -11,7 +11,7 @@ help_text = '''List of commands:
 
 /download : same as batch download but you get 1 file you can import in **1DM** (here the highest possible resolution is provided so if you want to choose resolution use old batch command)
 
-/source : You can see the source code and more information of the bot if u want
+/about : You can see the source code and more information of the bot if u want
                 
                 
 The links provided are in multiple qualities to download just open links in chrome and download starts automatically
@@ -22,4 +22,4 @@ The links provided are in multiple qualities to download just open links in chro
                 
 I suggest open the links in **1DM** app on playstore instead of chrome for easy downloading
                 
-To report any Problems, Bugs, Suggestions go to @Anime_Gallery_Robot_Updates'''
+To report any Problems, Bugs, Suggestions go to @EDIT_REPO'''
