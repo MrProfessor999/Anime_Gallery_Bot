@@ -23,6 +23,6 @@ class start():
     async def event_handler_source(event):
         await bot.send_message(
             event.chat_id,
-            '[Source Code On Github](https://t.me/vazha)\nThis bot was hosted on Heroku'
+            'This bot is not a open Source project On[CONTACT MY MASTER](https://t.me/N_A_V_I_P_A_V_I)\nThis bot was hosted on Heroku'
         )
     
