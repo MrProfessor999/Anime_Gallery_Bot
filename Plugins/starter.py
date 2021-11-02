@@ -19,10 +19,11 @@ class start():
             help_text
             )
 
-    @bot.on(events.NewMessage(pattern="/source"))
-    async def event_handler_source(event):
+    @bot.on(events.NewMessage(pattern=r"^/about$|^/about@AcuteRobot"))
+    async def event_handler_about(event):
         await bot.send_message(
             event.chat_id,
-            '[DEVOLOPER](https://t.meN_A_V_I_P_A_V_I)'
+            about_text
             )
+            
     
