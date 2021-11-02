@@ -68,7 +68,7 @@ class Anime():
     @bot.on(events.NewMessage(pattern="/batch"))
     async def event_handler_batch(event):
         if event.chat_id < 0:
-            await event.reply("If you want to download in batch contact me in pm\n@EDIT_REPO")
+            await event.reply("If you want to download in batch contact me in pm\n@AcutRobot")
             return
         try:
             text = event.raw_text.split()
