@@ -15,16 +15,7 @@
 
 import requests as r
 
-from telegram.ext import (
-    MessageHandler,
-    CommandHandler,
-    Filters,
-    ConversationHandler,
-    CallbackQueryHandler,
-)
 
-from telegram.ext.dispatcher import run_async
-from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 
 
 base_url = "https://kitsu.io/api/edge"
