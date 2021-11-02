@@ -26,7 +26,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 
-from config.py import TMDBAPI
+from plugins.config.py import TMDBAPI
 
 
 base_url = "https://api.themoviedb.org/3"
