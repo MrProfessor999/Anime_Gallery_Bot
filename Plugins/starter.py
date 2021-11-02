@@ -1,4 +1,4 @@
-from Helper.helper import start_text, help_text
+from Helper.helper import start_text, help_text , about_text
 from config import bot
 from telethon import events
 
@@ -19,16 +19,10 @@ class start():
             help_text
             )
 
-    @bot.on(events.NewMessage(pattern="/about"))
+    @bot.on(events.NewMessage(pattern="/source"))
     async def event_handler_source(event):
         await bot.send_message(
             event.chat_id,
-            '𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙻𝚄𝙽𝙰
-             𝙲𝚁𝙴𝙰𝚃𝙾𝚁: [꧁࿗༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒࿗꧂](https://t.meN_A_V_I_P_A_V_I/
-             𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-             𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-             𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-             𝙽𝙾𝚃𝙴 
-             𝚃𝙷𝙸𝚂 𝙸𝚂 𝙽𝙾𝚃 𝙰 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿�𝚁𝙾𝙹𝙴𝙲𝚃'
+            '[DEVOLOPER](https://t.meN_A_V_I_P_A_V_I)'
             )
     
