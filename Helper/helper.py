@@ -9,9 +9,7 @@ help_text = '''List of commands:
 
 /batch <animeid>:<from episode>:<to episode> : For getting download links in bulk
 
-/download : same as batch download but you get 1 file you can import in **1DM** (here the highest possible resolution is provided so if you want to choose resolution use old batch command)
-
-/source : You can see the source code and more information of the bot if u want
+/download : same as batch download but you get 1 file you can import in **1DM** (here the highest possible resolution is provided so if you want to choose resolution use old batch command
                 
                 
 The links provided are in multiple qualities to download just open links in chrome and download starts automatically
