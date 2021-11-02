@@ -26,10 +26,8 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 
-from acutebot import dp, TMDBAPI, typing
-from acutebot.helpers import strings as st
-from acutebot.helpers.parsedata import byname, byindex, sort_caps, tvruntime
-from acutebot.helpers.keyboard import keyboard
+from config.py import TMDBAPI
+
 
 base_url = "https://api.themoviedb.org/3"
 pic_url = "https://image.tmdb.org/t/p"
