@@ -132,13 +132,3 @@ def cancel(update, context):
     return ConversationHandler.END
 
 
-MANGA_HANDLER = ConversationHandler(
-    entry_points=[CommandHandler("manga", manga_entry)],
-    states={1: [MessageHandler(Filters.text & ~Filters.command, manga)]},
-    fallbacks=[CommandHandler("cancel", cancel)],
-    conversation_timeout=120,
-)
-MANGA_BUTTON_HANDLER = CallbackQueryHandler(manga_button, pattern=r"manga_")
-
-dp.add_handler(MANGA_HANDLER)
-dp.add_handler(MANGA_BUTTON_HANDLER)
