@@ -24,8 +24,7 @@ base_url = "https://kitsu.io/api/edge"
 tempdict = {}
 
 
-@run_async
-@typing
+
 def manga_entry(update, context):
     update.effective_message.reply_text(
         st.TOSEARCH_MANGA, reply_markup=ForceReply(selective=True),
@@ -34,8 +33,7 @@ def manga_entry(update, context):
     return 1
 
 
-@run_async
-@typing
+
 def manga(update, context):
     msg = update.message
     user = update.effective_user
@@ -74,7 +72,7 @@ def manga(update, context):
     return ConversationHandler.END
 
 
-@run_async
+
 def manga_button(update, context):
     query = update.callback_query
     chat = update.effective_chat
@@ -128,8 +126,7 @@ def manga_button(update, context):
     del tempdict[user_id]
 
 
-@run_async
-@typing
+
 def cancel(update, context):
     context.bot.sendMessage(update.effective_chat.id, (st.CANCEL))
     return ConversationHandler.END
