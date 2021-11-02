@@ -17,7 +17,7 @@ import requests as r
 
  
 
-from config.py import TMDBAPI
+from plugins.config.py import TMDBAPI
 
 
 
