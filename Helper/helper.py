@@ -1,6 +1,8 @@
-start_text = '''This bot is for downloading any anime direclty via links in multiple quality
-Created by N_A_V_I_P_A_V_I                
-Use /help to know commands and how to use this bot'''
+start_text = '''𝙷𝙸,{}
+I𝙰𝙼 𝙰 <a href="https://t.me/AcuteRobot"> 𝙻𝚄𝙽𝙰 </a> 𝙱𝙾𝚃 𝙵𝙾𝚁 downloading 𝙰𝙽𝚈 𝙰𝙽𝙸𝙼𝙴 𝙳𝙸𝚁𝙴𝙲𝚃𝙻𝚈 𝚅𝙸𝙰 𝙻𝙸𝙽𝙺𝚂 𝙸𝙽 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝚀𝚄𝙰𝙻𝙸𝚃𝚈 , 𝙼𝙾𝚅𝙸𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝚁𝙸𝙴𝚂 𝙰𝙳𝙳𝙸𝙽𝙶 𝚂𝙾𝙾𝙽
+𝚄𝚂𝙴 /help 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 𝙰𝙽𝙳 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂                        
+Created by <a href="https://t.me/N_A_V_I_P_A_V_I"> ꧁࿗༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒࿗꧂ </a>'''            
+
 
 help_text = '''List of commands:
 /anime <name of anime you want> : to download any anime by search
@@ -23,8 +25,8 @@ I suggest open the links in **1DM** app on playstore instead of chrome for easy 
                 
 To report any Problems, Bugs, Suggestions go to @EDIT_REPO'''
 
-about_text='''𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙻𝚄𝙽𝙰
-𝙲𝚁𝙴𝙰𝚃𝙾𝚁: [꧁࿗༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒࿗꧂](https://t.meN_A_V_I_P_A_V_I/
+about_text='''𝙼𝚈 𝙽𝙰𝙼𝙴: <a href="https://t.me/AcuteRobot"> 𝙻𝚄𝙽𝙰 </a>
+𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href="https://t.me/N_A_V_I_P_A_V_I"> ꧁࿗༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒࿗꧂ </a>
 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
