@@ -23,3 +23,5 @@ The links provided are in multiple qualities to download just open links in chro
 I suggest open the links in **1DM** app on playstore instead of chrome for easy downloading
                 
 To report any Problems, Bugs, Suggestions go to @EDIT_REPO'''
+
+about_text='''
