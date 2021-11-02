@@ -164,13 +164,3 @@ def cancel(update, context):
     return ConversationHandler.END
 
 
-MOVIE_HANDLER = ConversationHandler(
-    entry_points=[CommandHandler("movies", movie_entry)],
-    states={1: [MessageHandler(Filters.text & ~Filters.command, movie)]},
-    fallbacks=[CommandHandler("cancel", cancel)],
-    conversation_timeout=120,
-)
-MV_BUTTON_HANDLER = CallbackQueryHandler(movie_button, pattern=r"movie_")
-
-dp.add_handler(MOVIE_HANDLER)
-dp.add_handler(MV_BUTTON_HANDLER)
