@@ -26,7 +26,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 
-from plugin import TMDBAPI
+from plugins import TMDBAPI
 
 
 
