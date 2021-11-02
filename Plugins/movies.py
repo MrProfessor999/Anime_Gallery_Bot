@@ -58,8 +58,7 @@ def moviedata(c_id):
     return res
 
 
-@run_async
-@typing
+
 def movie_entry(update, context):
 
     update.effective_message.reply_text(
@@ -69,8 +68,7 @@ def movie_entry(update, context):
     return 1
 
 
-@run_async
-@typing
+
 def movie(update, context):
     msg = update.message
     user = update.effective_user
@@ -108,7 +106,7 @@ def movie(update, context):
     return ConversationHandler.END
 
 
-@run_async
+
 def movie_button(update, context):
     query = update.callback_query
     chat = update.effective_chat
@@ -160,8 +158,7 @@ def movie_button(update, context):
         )
 
 
-@run_async
-@typing
+
 def cancel(update, context):
     context.bot.sendMessage(update.effective_chat.id, (st.CANCEL))
     return ConversationHandler.END
