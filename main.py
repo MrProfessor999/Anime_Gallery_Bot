@@ -2,8 +2,6 @@ from Plugins.starter import start
 from Plugins.anime import anime
 from Plugins.manga import manga
 from Plugins.nhentai import Nhentai
-from Plugins.movies import movies
-from Plugins.tvseries import tvseries
 from config import bot
 
 
@@ -12,9 +10,7 @@ try:
     Anime()
     Manga()
     Nhentai()
-    movies()
-    tvseries()
-
+    
 except Exception as e:
     print(e)
 
