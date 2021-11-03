@@ -1,5 +1,5 @@
 from Plugins.starter import start
-from Plugins.anime import Anime
+from Plugins.Anime import Anime
 from Plugins.manga import manga
 from Plugins.nhentai import Nhentai
 from Plugins.movies import movies
