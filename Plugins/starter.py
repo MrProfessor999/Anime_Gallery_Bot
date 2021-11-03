@@ -10,8 +10,8 @@ class start():
         await bot.send_message(
             event.chat_id,
             start_text,
-            file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
-            )
+            file='https://telegra.ph/file/de65abf86cfde85772e21.jpg')
+            
     caption=start_text,
     reply_markup=InlineKeyboardMarkup(
     ]]
