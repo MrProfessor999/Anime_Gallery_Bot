@@ -1,6 +1,6 @@
 from Plugins.starter import start
 from Plugins.anime import Anime
-from Plugins.manga import Manga
+from Plugins.manga import manga
 from Plugins.nhentai import Nhentai
 from config import bot
 
