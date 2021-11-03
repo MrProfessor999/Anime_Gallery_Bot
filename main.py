@@ -1,7 +1,7 @@
-from Plugins import starter.py
-from Plugins import Anime.py
-from Plugins import Manga.py
-from Plugins import Nhentai.py
+from Plugins.starter import start
+from Plugins.anime import Anime
+from Plugins.manga import Manga
+from Plugins.nhentai import Nhentai
 from config import bot
 
 try:
