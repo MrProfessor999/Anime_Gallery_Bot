@@ -10,7 +10,7 @@ class start():
             event.chat_id,
             start_text,
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg')
-        Start_text = InlineKeyboardMarkup(
+        start_text = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('❗HELP', callback_data='help_text'),
         InlineKeyboardButton('About me 😉', callback_data='about_text'),
