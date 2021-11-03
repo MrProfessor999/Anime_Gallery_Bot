@@ -14,14 +14,17 @@ class start():
             
     caption=start_text,
     reply_markup=InlineKeyboardMarkup(
-    ]]
-        InlineKeyboardButton(HELP❗', callback_data='help_text'),
-        InlineKeyboardButton('ABOUT ME 😉', callback_data='about_text')   
+    ]
+     ]
+      InlineKeyboardButton(HELP❗', callback_data='help_text'),
+      InlineKeyboardButton('ABOUT ME 😉', callback_data='about_text')   
     ],
     [
      InlineKeyboardButton('👨‍💻 DEVOLOPER', url=f"https://t.me/N_A_V_I_P_A_V_I"),
-    ]]
+     ]
    )
+ )
+                
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
     async def event_handler_help(event):
