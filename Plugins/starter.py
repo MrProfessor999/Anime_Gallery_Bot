@@ -12,18 +12,21 @@ class start():
             start_text,
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg')
             
-    caption=start_text,
-    reply_markup=InlineKeyboardMarkup(
-    ]
-     ]
-      InlineKeyboardButton(HELP❗', callback_data='help_text'),
-      InlineKeyboardButton('ABOUT ME 😉', callback_data='about_text')   
-    ],
-    [
-     InlineKeyboardButton('👨‍💻 DEVOLOPER', url=f"https://t.me/N_A_V_I_P_A_V_I"),
-     ]
-   )
- )
+                caption=start_text,
+                reply_markup=InlineKeyboardMarkup(
+                ]
+                   ]
+                   InlineKeyboardButton(HELP❗', callback_data='help_text'),
+                   InlineKeyboardButton('ABOUT ME 😉', callback_data='about_text')   
+                 ],
+                 [
+                   InlineKeyboardButton('👨‍💻 DEVOLOPER', url=f"https://t.me/N_A_V_I_P_A_V_I"),
+                  ]
+                ]
+            )
+        )
+   
+ 
                 
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
