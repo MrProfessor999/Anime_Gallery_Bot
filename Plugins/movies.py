@@ -6,10 +6,10 @@ from config import bot
 class Movies ():
 
 
-@Client.on_message(filters.command(["movie", 'search']))
+@Client.on_message(filters.command(["imdb", 'search']))
 async def imdb_search(client, message):
     if ' ' in message.text:
-        k = await message.reply('Searching movie')
+        k = await message.reply('Searching ImDB')
         r, title = message.text.split(None, 1)
         movies = await get_poster(title, bulk=True)
         if not movies:
@@ -45,3 +45,6 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
     else:
         await query.message.edit(f"IMDb Data:\n\n🏷 Title:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
     await query.answer()
+        
+
+        
