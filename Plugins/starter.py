@@ -12,7 +12,8 @@ class start():
             start_text,
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
             )
-
+    caption=START_MSG,
+               reply_markup=InlineKeyboardMarkup(
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
     async def event_handler_help(event):
