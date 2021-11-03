@@ -10,21 +10,8 @@ class start():
         await bot.send_message(
             event.chat_id,
             start_text,
-            reply_markup=InlineKeyboardMarkup(
-            ]
-               ]
-               InlineKeyboardButton(HELP❗', callback_data='help_text'),
-               InlineKeyboardButton('ABOUT ME 😉', callback_data='about_text')   
-               ],
-               [
-               InlineKeyboardButton('👨‍💻 DEVOLOPER', url=f"https://t.me/N_A_V_I_P_A_V_I"),
-               ]
-            ]
-         )
-      )
-   
- 
-   
+            file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
+            )
  
                 
 
