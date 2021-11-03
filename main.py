@@ -5,14 +5,13 @@ from Plugins.nhentai import Nhentai
 from Plugins.movies import Movies
 from config import bot
 
-
 try:
     start()
     Anime()
     Manga()
     Nhentai()
-    movies ()
-    
+    Movies()
+
 except Exception as e:
     print(e)
 
