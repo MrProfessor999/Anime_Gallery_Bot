@@ -9,8 +9,8 @@ class start():
         await bot.send_message(
             event.chat_id,
             start_text,
-            file='https://telegra.ph/file/de65abf86cfde85772e21.jpg')
-        
+            file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
+            )
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
     async def event_handler_help(event):
