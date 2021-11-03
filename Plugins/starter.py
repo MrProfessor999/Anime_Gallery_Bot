@@ -15,8 +15,8 @@ class start():
     caption=start_text,
     reply_markup=InlineKeyboardMarkup(
     ]]
-        InlineKeyboardButton(HELP❗', url=f"https://telegram.me/{Config.OWNER_USERNAME}"),
-        InlineKeyboardButton('ABOUT ME 😉', url="https://GitHub.Com/BXBotz/Telegram-Bot")     
+        InlineKeyboardButton(HELP❗', callback_data='help_text'),
+        InlineKeyboardButton('ABOUT ME 😉', callback_data='about_text')   
     ],
     [
      InlineKeyboardButton('👨‍💻 DEVOLOPER', url=f"https://t.me/N_A_V_I_P_A_V_I"),
