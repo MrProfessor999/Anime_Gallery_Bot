@@ -9,8 +9,17 @@ class start():
         await bot.send_message(
             event.chat_id,
             start_text,
-            file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
-        )
+            file='https://telegra.ph/file/de65abf86cfde85772e21.jpg')
+        Start_text = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('❗HELP', url=f"https://t.me/"),
+        InlineKeyboardButton('About me 😉', url=f"")
+    ],
+    [
+        InlineKeyboardButton('👨‍💻 Developer', url=f"https://t.me/N_A_V_I_P_A_V_I"),
+        InlineKeyboardButton('👥 Support Group', url="https://t.me/LUNA_SUPPORT")     
+        ]]
+    )
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
     async def event_handler_help(event):
