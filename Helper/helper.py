@@ -1,7 +1,16 @@
 start_text = '''𝙷𝙸,I𝙰𝙼 [𝙻𝚄𝙽𝙰](https://t.me/AcuteRobot) 𝙱𝙾𝚃 𝙵𝙾𝚁 downloading 𝙰𝙽𝚈 𝙰𝙽𝙸𝙼𝙴 𝙳𝙸𝚁𝙴𝙲𝚃𝙻𝚈 𝚅𝙸𝙰 𝙻𝙸𝙽𝙺𝚂 𝙸𝙽 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝚀𝚄𝙰𝙻𝙸𝚃𝚈 , 𝙼𝙾𝚅𝙸𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝚁𝙸𝙴𝚂 𝙰𝙳𝙳𝙸𝙽𝙶 𝚂𝙾𝙾𝙽
 𝚄𝚂𝙴 /help 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 𝙰𝙽𝙳 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂                        
 Created by [꧁࿗༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒࿗꧂](https://t.me/N_A_V_I_P_A_V_I)'''         
-
+start_text = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('❗HELP', callback_data='help_text'),
+        InlineKeyboardButton('About me 😉', callback_data='about_text'),
+    ],
+    [
+        InlineKeyboardButton('👨‍💻 Developer', url=f"https://t.me/N_A_V_I_P_A_V_I"),
+        InlineKeyboardButton('👥 Support Group', url="https://t.me/EDIT_REPO")     
+        ]]
+    )
 
 help_text = '''List of commands:
 /anime <name of anime you want> : to download any anime by search
