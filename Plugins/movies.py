@@ -3,7 +3,7 @@ import Helper.formating_results as format
 from API.nhentaiapi import nhentaiapi as nh
 from config import bot
 
-Class Movies ()
+class Movies ():
 
 
 @Client.on_message(filters.command(["movie", 'search']))
