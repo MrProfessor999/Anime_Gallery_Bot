@@ -12,8 +12,16 @@ class start():
             start_text,
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
             )
-    caption=START_MSG,
-               reply_markup=InlineKeyboardMarkup(
+    caption=start_text,
+    reply_markup=InlineKeyboardMarkup(
+    ]]
+        InlineKeyboardButton(HELP❗', url=f"https://telegram.me/{Config.OWNER_USERNAME}"),
+        InlineKeyboardButton('ABOUT ME 😉', url="https://GitHub.Com/BXBotz/Telegram-Bot")     
+    ],
+    [
+     InlineKeyboardButton('👨‍💻 DEVOLOPER', url=f"https://t.me/N_A_V_I_P_A_V_I"),
+    ]]
+   )
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
     async def event_handler_help(event):
