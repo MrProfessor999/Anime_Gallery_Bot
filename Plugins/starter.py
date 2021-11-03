@@ -1,4 +1,5 @@
-from Helper.helper import start_text, help_text , about_text , InlineKeyboardMarkup
+from Helper.helper import start_text, help_text , about_text 
+from pyrogram.types import InlineKeyboardMarkup
 from config import bot
 from telethon import events
 
@@ -11,6 +12,7 @@ class start():
             start_text,
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
             )
+
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
     async def event_handler_help(event):
