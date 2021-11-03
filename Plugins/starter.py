@@ -12,12 +12,12 @@ class start():
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg')
         Start_text = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('❗HELP', url=f"https://t.me/"),
-        InlineKeyboardButton('About me 😉', url=f"")
+        InlineKeyboardButton('❗HELP', callback_data='help_text'),
+        InlineKeyboardButton('About me 😉', callback_data='about_text'),
     ],
     [
         InlineKeyboardButton('👨‍💻 Developer', url=f"https://t.me/N_A_V_I_P_A_V_I"),
-        InlineKeyboardButton('👥 Support Group', url="https://t.me/LUNA_SUPPORT")     
+        InlineKeyboardButton('👥 Support Group', url="https://t.me/EDIT_REPO")     
         ]]
     )
 
