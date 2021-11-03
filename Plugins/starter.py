@@ -10,16 +10,7 @@ class start():
             event.chat_id,
             start_text,
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg')
-        start_text = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('❗HELP', callback_data='help_text'),
-        InlineKeyboardButton('About me 😉', callback_data='about_text'),
-    ],
-    [
-        InlineKeyboardButton('👨‍💻 Developer', url=f"https://t.me/N_A_V_I_P_A_V_I"),
-        InlineKeyboardButton('👥 Support Group', url="https://t.me/EDIT_REPO")     
-        ]]
-    )
+        
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
     async def event_handler_help(event):
