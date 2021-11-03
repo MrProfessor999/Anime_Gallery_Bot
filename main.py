@@ -1,8 +1,8 @@
 from Plugins.starter import start
 from Plugins.Anime import Anime
-from Plugins.manga import manga
-from Plugins.nhentai import Nhentai
-from Plugins.movies import movies
+from Plugins.Manga import Manga
+from Plugins.Nhentai import Nhentai
+from Plugins.Movies import Movies
 from config import bot
 
 
