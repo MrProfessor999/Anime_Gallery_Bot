@@ -1,4 +1,4 @@
-from Helper.helper import start_text, help_text , about_text 
+from Helper.helper import start, help , about
 from pyrogram.types import InlineKeyboardButton
 from config import bot
 from telethon import events
@@ -22,7 +22,7 @@ class start():
             )
         
                                  
-    @Client.on_message(filters.command(["help_text"]) & filters.private, group=1)
+    @Client.on_message(filters.command(["help"]) & filters.private, group=1)
     async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
@@ -34,11 +34,15 @@ class start():
     reply_markup = InlineKeyboardMarkup(buttons)
     
 
-    @bot.on(events.NewMessage(pattern=r"^/about$|^/about@AcuteRobot"))
-    async def event_handler_about(event):
-        await bot.send_message(
-            event.chat_id,
-            about
-            )
+    @Client.on_message(filters.command(["about"]) & filters.private, group=1)
+    async def help(bot, update):
+    buttons = [[
+        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('HELP 🚩', callback_data='help')
+    ],[
+        InlineKeyboardButton('Close 🔐', callback_data='close')
+    ]]
+    
+    reply_markup = InlineKeyboardMarkup(buttons)
             
     
