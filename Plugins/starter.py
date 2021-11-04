@@ -13,9 +13,10 @@ class start():
  
                          InlineKeyboardButton('HELP❗', callback_data="help_text") 
                      ],[ 
-                        Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
- 
-              reply_markup = InlineKeyboardMarkup(buttons)
+                         Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
+                      ]]
+             
+             reply_markup = InlineKeyboardMarkup(buttons)
 
               file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
             )
