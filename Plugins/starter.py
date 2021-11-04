@@ -1,5 +1,5 @@
 from Helper.helper import start_text, help_text , about_text 
-pyrogram.types import Inlinekeyboardbutton
+from pyrogram.types import InlineKeyboardButton
 from config import bot
 from telethon import events
 
