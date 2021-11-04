@@ -5,12 +5,17 @@ from telethon import events
 
 class start():
 
-    @bot.on(events.NewMessage(pattern=r"^/start$|^/start@AcuteRobot"))
-    async def event_handler_start(event):
-        await bot.send_message(
-            event.chat_id,
-            start_text,
-            file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
+    @Client.on_message(filters.command("start") & filters.private)
+    async def start(bot, update): 
+
+            buttons = [[
+                         InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'), 
+                         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot') 
+                     ],[ 
+                        InlineKeyboardButton('Support 🛠', callback_data="help")
+ 
+              reply_markup = InlineKeyboardMarkup(buttons)
+              file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
             )
         await bot.send_message(
             event.chat_id,
