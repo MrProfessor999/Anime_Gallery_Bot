@@ -12,8 +12,10 @@ class start():
             start_text,
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
             )
-         
-            Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
+        await bot.send_message(
+            event.chat_id,
+            start_text,    
+            Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")     
                 
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
