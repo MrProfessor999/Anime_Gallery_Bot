@@ -9,9 +9,9 @@ class start():
     async def start(bot, update): 
 
             buttons = [[
-                         InlineKeyboardButton('😉ABOUT', callback_data="about") 
+                         InlineKeyboardButton('😉ABOUT', callback_data='about') 
  
-                         InlineKeyboardButton('HELP❗', callback_data="help") 
+                         InlineKeyboardButton('HELP❗', callback_data='help') 
                      ],[ 
                          Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
                      ]]
