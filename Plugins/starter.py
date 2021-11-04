@@ -1,4 +1,5 @@
 from Helper.helper import start_text, help_text , about_text 
+pyrogram.types import Inlinekeyboardbutton
 from config import bot
 from telethon import events
 
@@ -16,7 +17,7 @@ class start():
         await bot.send_message(
             event.chat_id,
             start_text,
-            inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/ ")
+            Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
                 
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
