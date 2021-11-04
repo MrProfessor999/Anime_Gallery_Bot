@@ -25,8 +25,8 @@ NOW WE PROVIDING ANIME INFORMATION ONLY STREAMING LINK WILL BE NOT SEND SEARCH T
          
 To report any Problems, Bugs, Suggestions go to @EDIT_REPO'''
 
-about_text='''𝙼𝚈 𝙽𝙰𝙼𝙴: [𝙻𝚄𝙽𝙰](https://t.me/AcuteRobot)
-👨‍💻𝙲𝚁𝙴𝙰𝚃𝙾𝚁: [࿗༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒࿗](https://t.me/N_A_V_I_P_A_V_I)
+about_text='''𝙼𝚈 𝙽𝙰𝙼𝙴: <a href="https://t.me/AcuteRobot"> 𝙻𝚄𝙽𝙰 </a>
+👨‍💻𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href="https://t.me/N_A_V_I_P_A_V_I"> ༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒ </a>
 📙𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
