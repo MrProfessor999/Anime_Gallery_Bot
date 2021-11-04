@@ -9,20 +9,18 @@ class start():
     async def start(bot, update): 
 
             buttons = [[
-                         InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'), 
-                         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot') 
+                         InlineKeyboardButton('😉ABOUT', callback_data="about_text") 
+ 
+                         InlineKeyboardButton('HELP❗', callback_data="help_text") 
                      ],[ 
-                        InlineKeyboardButton('Support 🛠', callback_data="help")
+                        Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
  
               reply_markup = InlineKeyboardMarkup(buttons)
+
               file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
             )
-        await bot.send_message(
-            event.chat_id,
-            start_text,    
-            Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")     
-                
-
+        
+                                 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
     async def event_handler_help(event):
         await bot.send_message(
