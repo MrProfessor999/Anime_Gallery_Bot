@@ -14,7 +14,7 @@ class start():
                          InlineKeyboardButton('HELP❗', callback_data="help_text") 
                      ],[ 
                          Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
-                      ]]
+                     ]]
              
              reply_markup = InlineKeyboardMarkup(buttons)
 
@@ -22,12 +22,17 @@ class start():
             )
         
                                  
-    @bot.on(events.NewMessage(pattern=r"^/help$|^/help@AcuteRobot"))
-    async def event_handler_help(event):
-        await bot.send_message(
-            event.chat_id,
-            help_text
-            )
+    @Client.on_message(filters.command(["help_text"]) & filters.private, group=1)
+    async def help(bot, update):
+    buttons = [[
+        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('About 🚩', callback_data='about')
+    ],[
+        InlineKeyboardButton('Close 🔐', callback_data='close')
+    ]]
+    
+    reply_markup = InlineKeyboardMarkup(buttons)
+    
 
     @bot.on(events.NewMessage(pattern=r"^/about$|^/about@AcuteRobot"))
     async def event_handler_about(event):
