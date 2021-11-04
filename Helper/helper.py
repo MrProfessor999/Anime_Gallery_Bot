@@ -1,9 +1,9 @@
-start = '''𝙷𝙸,I𝙰𝙼 [𝙻𝚄𝙽𝙰](https://t.me/AcuteRobot) 𝙱𝙾𝚃 𝙵𝙾𝚁 downloading 𝙰𝙽𝚈 𝙰𝙽𝙸𝙼𝙴 𝙳𝙸𝚁𝙴𝙲𝚃𝙻𝚈 𝚅𝙸𝙰 𝙻𝙸𝙽𝙺𝚂 𝙸𝙽 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝚀𝚄𝙰𝙻𝙸𝚃𝚈 , 𝙼𝙾𝚅𝙸𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝚁𝙸𝙴𝚂 𝙰𝙳𝙳𝙸𝙽𝙶 𝚂𝙾𝙾𝙽
+START_TXT = '''𝙷𝙸,I𝙰𝙼 [𝙻𝚄𝙽𝙰](https://t.me/AcuteRobot) 𝙱𝙾𝚃 𝙵𝙾𝚁 downloading 𝙰𝙽𝚈 𝙰𝙽𝙸𝙼𝙴 𝙳𝙸𝚁𝙴𝙲𝚃𝙻𝚈 𝚅𝙸𝙰 𝙻𝙸𝙽𝙺𝚂 𝙸𝙽 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝚀𝚄𝙰𝙻𝙸𝚃𝚈 , 𝙼𝙾𝚅𝙸𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝚁𝙸𝙴𝚂 𝙰𝙳𝙳𝙸𝙽𝙶 𝚂𝙾𝙾𝙽
 𝚄𝚂𝙴 /help 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 𝙰𝙽𝙳 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂                        
 Created by [꧁࿗༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒࿗꧂](https://t.me/N_A_V_I_P_A_V_I)'''         
 
 
-help = '''List of commands:
+HELP_TXT = '''List of commands:
 /anime <name of anime you want> : to download any anime by search
 
 /latest : to get list of latest episodes released
@@ -25,7 +25,7 @@ NOW WE PROVIDING ANIME INFORMATION ONLY STREAMING LINK WILL BE NOT SEND SEARCH T
          
 To report any Problems, Bugs, Suggestions go to @LUNA_SUPPORT'''
 
-about='''𝙼𝚈 𝙽𝙰𝙼𝙴: [𝙻𝚄𝙽𝙰](https://t.me/AcuteRobot) 
+ABOUT_TXT='''𝙼𝚈 𝙽𝙰𝙼𝙴: [𝙻𝚄𝙽𝙰](https://t.me/AcuteRobot) 
 👨‍💻𝙲𝚁𝙴𝙰𝚃𝙾𝚁: [༒⚔ 𝕄𝕣 ℙ𝕣𝕠𝕗𝕖𝕤𝕤𝕠𝕣⚔༒](https://t.me/N_A_V_I_P_A_V_I) 
 📙𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
