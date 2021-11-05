@@ -8,7 +8,7 @@ class start():
     @clint.on_message(filters.command('START') & filters.private)
     async def START(client, message):
     await message.reply_text(
-        text=HELPER,START_TXT
+        text=helper,START_TXT
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
