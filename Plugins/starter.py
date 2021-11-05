@@ -7,7 +7,6 @@ class start():
 
     @clint.on_message(filters.command('START') & filters.private)
     async def START(client, message):
-    await message.reply_text(
         text=helper,START_TXT
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
@@ -26,7 +25,6 @@ class start():
                                  
     @trojanz.on_message(filters.command('help') & filters.private)
     async def help(client, message):
-    await message.reply_text(
         text=HELPER,HELP_TXT
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
@@ -43,7 +41,6 @@ class start():
 
     @trojanz.on_message(filters.command('ABOUT') & filters.private)
     async def ABOUT(client, message):
-    await message.reply_text(
         text=HELPER.ABOUT_TXT,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
