@@ -1,24 +1,24 @@
-from Helper.helper import start, help , about
-from pyrogram.types import InlineKeyboardButton
+from Helper.helper import START_TXT, HELP_TXT , ABOUT_TXT
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import bot
 from telethon import events
 
 class start():
 
-    @clint.on_message(filters.command('help') & filters.private)
+    @clint.on_message(filters.command('START') & filters.private)
 async def help(client, message):
     await message.reply_text(
-        text=Script.HELP_MSG,
+        text=HELPER,START_TXT
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                    
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("About me 😉", callback_data="ABOUT_TXT")
+                    InlineKeyboardButton("HELP❗", callback_data="HELP_TXT")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/BOTS_GARAGE"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/BOTS_ASK")
+                    InlineKeyboardButton("DEVOLOPER", url="https://t.me/N_A_VI_P_A_V_I")
                 ]
             ]
         ),
@@ -27,17 +27,16 @@ async def help(client, message):
     @trojanz.on_message(filters.command('help') & filters.private)
 async def help(client, message):
     await message.reply_text(
-        text=Script.HELP_MSG,
+        text=HELPER,HELP_TXT
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                   
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    
+                    InlineKeyboardButton("HOME🏘️", callback_data="START_TXT")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/BOTS_GARAGE"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/BOTS_ASK")
+                    InlineKeyboardButton("About me 😉", callback_data="ABOUT_TXT")
                 ]
             ]
         ),
@@ -45,17 +44,16 @@ async def help(client, message):
     @trojanz.on_message(filters.command('ABOUT') & filters.private)
 async def help(client, message):
     await message.reply_text(
-        text=Script.About_MSG,
+        text=HELPER.ABOUT_TXT,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                    
-                    InlineKeyboardButton("HELP❗", callback_data="HELP")
+                    InlineKeyboardButton("HOME🏘️", callback_data="START_TXT")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/BOTS_GARAGE"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/BOTS_ASK")
+                    InlineKeyboardButton("HELP❗", callback_data="HELP_TXT")
                 ]
             ]
         ),
