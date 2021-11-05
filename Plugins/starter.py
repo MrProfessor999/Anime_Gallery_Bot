@@ -6,6 +6,7 @@ from telethon import events
 class start():
 
     @clint.on_message(filters.command('START') & filters.private)
+    await bot.send_message(
     buttons=[Button.inline(
                     "HELP❗", callback_data="HELP_TXT"
             )
