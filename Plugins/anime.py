@@ -86,7 +86,7 @@ class Anime():
                         break
 
         except:
-            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@EDIT_REPO if you have any doubts")
+            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@LUNA_SUPPORT_GROUP if you have any doubts")
 
     @bot.on(events.NewMessage(pattern="/download"))
     async def event_handler_batch(event):
