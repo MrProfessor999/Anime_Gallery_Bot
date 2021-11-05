@@ -8,5 +8,6 @@ class start():
     @bot.on(events.NewMessage(pattern=r"^/start$|^/start@Anime_Gallery_Robot"))
     async def event_handler_start(event):
         await bot.send_message(
-    buttons=[Button.inline(
-                    "DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
+        file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
+        )
+                    
