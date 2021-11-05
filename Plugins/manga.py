@@ -50,7 +50,7 @@ class Manga():
             split_data = anime_name.split(":")
             chap = kiss.get_manga_chapter(split_data[0], split_data[1])
             if chap == "Invalid Mangaid or chapter number":
-                await event.reply("Something went wrong.....\nCheck if you entered command properly\nCommon mistakes:\nYou didnt mention chapter number\nyou added space after : , dont leave space\n\n\n@Anime_Gallery_Robot_Support if you have any further doubts")
+                await event.reply("Something went wrong.....\nCheck if you entered command properly\nCommon mistakes:\nYou didnt mention chapter number\nyou added space after : , dont leave space\n\n\n@LUNA_SUPPORT_GROUP if you have any further doubts")
                 return
             format.manga_chapter_html(f"{split_data[0]}{split_data[1]}", chap)
             await bot.send_message(
@@ -60,7 +60,7 @@ class Manga():
             )
 
         except Exception as e:
-            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@Anime_Gallery_Robot_Support if you have any doubts")
+            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@LUNA_SUPPORT_GROUP if you have any doubts")
             print(e)
 
     @bot.on(events.CallbackQuery(pattern="mid:"))
