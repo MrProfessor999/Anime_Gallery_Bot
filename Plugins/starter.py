@@ -11,6 +11,8 @@ class start():
             START_TXT,                            
             file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
             )
+buttons=[[InlineKeyboardButton('DEVOLOPER', url=f"https://t.me/N_A_V_I_P_A_V_I")]] 
+                                                     
   
 
     @bot.on(events.NewMessage(pattern=r"^/help$|^/help@Anime_Gallery_Robot"))
