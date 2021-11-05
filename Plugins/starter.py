@@ -11,4 +11,3 @@ class start():
     buttons=[Button.inline(
                     "HELP❗", callback_data="HELP_TXT"
             )
-                
