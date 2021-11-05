@@ -5,42 +5,57 @@ from telethon import events
 
 class start():
 
-    @Client.on_message(filters.command("start") & filters.private)
-    async def start(bot, update): 
-
-            buttons = [[
-                         InlineKeyboardButton('😉ABOUT', callback_data='about')                    
-                     ],[ 
-                         Inlinekeyboardbutton("👨‍💻DEVOLOPER", url="https://t.me/N_A_V_I_P_A_V_I")
-                     ]]
-             
-             reply_markup = InlineKeyboardMarkup(buttons)
-
-              file='https://telegra.ph/file/de65abf86cfde85772e21.jpg'
-            )
+    @clint.on_message(filters.command('help') & filters.private)
+async def help(client, message):
+    await message.reply_text(
+        text=Script.HELP_MSG,
+        disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                   
+                    InlineKeyboardButton("About Me", callback_data="about_data")
+                ],
+                [
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/BOTS_GARAGE"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/BOTS_ASK")
+                ]
+            ]
+        ),
         
                                  
-    @Client.on_message(filters.command(["help"]) & filters.private, group=1)
-    async def help(bot, update):
-    buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
-    ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
-    ]]
-    
-    reply_markup = InlineKeyboardMarkup(buttons)
-    
+    @trojanz.on_message(filters.command('help') & filters.private)
+async def help(client, message):
+    await message.reply_text(
+        text=Script.HELP_MSG,
+        disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                   
+                    InlineKeyboardButton("About Me", callback_data="about_data")
+                ],
+                [
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/BOTS_GARAGE"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/BOTS_ASK")
+                ]
+            ]
+        ),
 
-    @Client.on_message(filters.command(["about"]) & filters.private, group=1)
-    async def help(bot, update):
-    buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('HELP 🚩', callback_data='help')
-    ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
-    ]]
-    
-    reply_markup = InlineKeyboardMarkup(buttons)
-            
-    
+    @trojanz.on_message(filters.command('ABOUT') & filters.private)
+async def help(client, message):
+    await message.reply_text(
+        text=Script.About_MSG,
+        disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                   
+                    InlineKeyboardButton("HELP❗", callback_data="HELP")
+                ],
+                [
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/BOTS_GARAGE"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/BOTS_ASK")
+                ]
+            ]
+        ),
