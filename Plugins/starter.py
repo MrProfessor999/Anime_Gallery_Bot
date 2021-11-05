@@ -9,5 +9,4 @@ class start():
     async def event_handler_start(event):
         await bot.send_message(
     buttons=[Button.inline(
-                    "HELP❗", callback_data="HELP_TXT"
-            )
+                    "HELP❗", callback_data="HELP_TXT")
