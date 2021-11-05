@@ -113,7 +113,7 @@ class Anime():
             )
 
         except:
-            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@Anime_Gallery_Robot_Support if you have any doubts")         
+            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@LUNA_SUPPORT_GROUP if you have any doubts")         
 
     @bot.on(events.CallbackQuery(pattern=b"lt:"))
     async def callback_for_latest(event):
