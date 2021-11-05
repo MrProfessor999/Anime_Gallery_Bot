@@ -6,7 +6,7 @@ from telethon import events
 class start():
 
     @clint.on_message(filters.command('START') & filters.private)
-async def help(client, message):
+    async def START(client, message):
     await message.reply_text(
         text=HELPER,START_TXT
         disable_web_page_preview=True,
@@ -25,7 +25,7 @@ async def help(client, message):
         
                                  
     @trojanz.on_message(filters.command('help') & filters.private)
-async def help(client, message):
+    async def help(client, message):
     await message.reply_text(
         text=HELPER,HELP_TXT
         disable_web_page_preview=True,
@@ -42,7 +42,7 @@ async def help(client, message):
         ),
 
     @trojanz.on_message(filters.command('ABOUT') & filters.private)
-async def help(client, message):
+    async def ABOUT(client, message):
     await message.reply_text(
         text=HELPER.ABOUT_TXT,
         disable_web_page_preview=True,
